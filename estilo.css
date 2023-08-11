@@ -1,0 +1,128 @@
+Body, html{
+    background-color: #e6fff3;
+    margin:auto;
+    border:solid 10px green;    
+    
+}
+
+/* Formatação de título e subtítulo */
+
+#destaque{   
+    
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #6666ff;    
+    height: 450px;
+    font-size: 25px;    
+    
+}
+
+/* Configurar acesso ao visitante */
+
+#info {
+    width: 100%;
+    background-color: #ffbb33;
+ }  
+
+/* Formatar lista de informação */
+
+ .listainfo {
+    width: 350px;
+    position: relative;
+    left: 50%;
+    margin-left: -205px;
+    margin-top: 7px;
+}
+.listainfo li {
+display: inline-block;
+}
+.listainfo li a {
+text-decoration: none;
+height: 50px;
+line-height: 30px;
+padding-left: 15px;
+padding-right: 15px;
+}
+.listainfo li a:link,
+.listainfo li a:visited {
+color: white;
+}
+.listainfo li a:hover {
+color: #660033;
+background-color: white;
+}
+
+/* Configurar acesso ao visitante */
+
+#info:visited {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Formatar produto_tabela */
+
+#produto table {
+    border-spacing: 25px;
+    border-collapse: separate;
+    text-align: center;
+}
+
+#produto td img {
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+    border-radius: 50%;
+    border: 2px solid #e50021;
+    }
+
+    /* Formatar telefone_imagem*/
+
+    #entrega img {
+        border-radius: 50%;
+        border: 3px solid #e50021;
+    }
+
+    /* Formatar número_telefone */
+
+    #tel {
+        
+        left: 10px;
+        height: 150px;        
+        color: white;
+        padding: 10px;
+        padding-bottom: 0;
+        border-radius: 15px;
+    } 
+    
+    #tel h4 {
+        margin: 0;
+        font-size: 18px;
+        color:#000000;
+        
+    }
+    #tel h5 {
+        margin: 0;
+        color: #000000;
+    
+    }
+    #tel a {
+        color: white;
+        text-decoration: none;
+    } 
+
+    /* Referência das imagens */
+    
+    #creditos {
+
+        <a href="https://br.freepik.com/vetores-gratis/variedade-de-queques-coloridos_774637.htm#query=cupcake&position=0&from_view=search&track=sph">Freepik</a>
+    }
+    
+/* Rodpé */
+
+footer{
+
+    clear: both;
+    text-align: center;
+
+}
